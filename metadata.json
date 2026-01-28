@@ -1,0 +1,8 @@
+
+{
+  "name": "TCG NOA POS",
+  "description": "A high-end POS and inventory management system for collectibles, featuring smart category filtering, complex condition-based stock tracking, and multi-user roles.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
