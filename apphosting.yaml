@@ -1,0 +1,18 @@
+env:
+  - variable: VITE_FIREBASE_API_KEY
+    value: "TU_API_KEY_REAL"
+  - variable: VITE_FIREBASE_AUTH_DOMAIN
+    value: "tcg-noa-platform.firebaseapp.com"
+  - variable: VITE_FIREBASE_PROJECT_ID
+    value: "tcg-noa-platform"
+  - variable: VITE_FIREBASE_STORAGE_BUCKET
+    value: "tcg-noa-platform.firebasestorage.app"
+  - variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+    value: "159109984971"
+  - variable: VITE_FIREBASE_APP_ID
+    value: "1:159109984971:web:ca5c2921a2212952402172"
+  - variable: GEMINI_API_KEY
+    secret: GEMINI_API_KEY
+runConfig:
+  environmentVariables:
+    PORT: "8080"
